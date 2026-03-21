@@ -23,6 +23,20 @@ body {
 .btn:hover {
   opacity: 0.9;
 }
+.section-heading {
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+}
+.section-desc {
+  color: #575f66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67; /* 166.667% */
+  margin-top: 18px;
+}
 
 /* header */
 .header {
@@ -33,7 +47,7 @@ body {
 .header a {
   text-decoration: none;
 }
-.header .container {
+.container {
   width: 1170px;
   margin: 0 auto;
   max-width: calc(100% - 48px);
@@ -135,4 +149,73 @@ body {
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
   width: 210px;
   height: 410px;
+}
+/* sevice */
+.service {
+  padding: 170px 0;
+}
+.service .service__heading {
+  text-align: center;
+}
+.service .service__desc {
+  width: 468px;
+  text-align: center;
+  margin: 0 auto;
+}
+.service .service__row {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service .service__row .service__img {
+  border-radius: 12px;
+  background: url(<path-to-image>) lightgray 0px -1.3px / 100% 149.93% no-repeat;
+  width: 570px;
+  height: 570px;
+}
+.service .service__list .service-item {
+  width: 470px;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  padding: 21px;
+  transition: 0.25s;
+}
+.service .service__list .service-item:hover {
+  position: relative;
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+}
+.service .service__list .service-item:hover .service-item__icon {
+  color: #fff;
+  background-color: rgba(46, 128, 206, 1);
+}
+.service .service__list .service-item .service-item__icon {
+  border-radius: 50%;
+  background: #eff6fd;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-right: 19px;
+  transition: 0.25s;
+}
+.service .service__list .service-item .service-item__heading {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.service .service__list .service-item .service-item__desc {
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+}
+.service .service__list .service__btn {
+  margin-top: 55px;
+  text-decoration: none;
 }
