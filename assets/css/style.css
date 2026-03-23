@@ -273,7 +273,7 @@ body {
 }
 /* about */
 .about {
-  padding: 85px 0 200px;
+  padding: 85px 0 100px;
   margin: 85px 0;
 }
 .about .container {
@@ -310,4 +310,80 @@ body {
 .about .about__content .section-desc {
   width: 468px;
   margin: 18px 0 38px 0;
+}
+/* team */
+.control {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.team .team-control {
+  margin-top: 38px;
+  justify-content: center;
+}
+.team {
+  padding: 85px 0;
+}
+.team .team-header {
+  text-align: center;
+}
+.team .team-header h2 {
+  margin-bottom: 38px;
+}
+.team .team-list {
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 70px;
+}
+.team .team-list .team-item .team-item__img-bg {
+  width: 270px;
+  height: 318px;
+  border-radius: 6px;
+  background: #eaf6ff;
+  overflow: hidden;
+}
+.team .team-list .team-item .team-item__thumb {
+  width: 262px;
+  height: 290px;
+  position: relative;
+  top: 28px;
+  transition: 0.5s;
+}
+.team .team-list .team-item:hover .team-item__thumb {
+  scale: 1.1;
+}
+.team .team-list .team-item .team-item__name {
+  color: #10375c;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+  margin-top: 12px;
+}
+.team .team-list .team-item .team-item__desc {
+  color: #575f66;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.86; /* 185.714% */
+}
+.team .control__btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 36px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px solid rgba(87, 95, 102, 1);
+  transition: 0.25s;
+}
+.team .control__btn .next {
+  rotate: 180deg;
+}
+.team .control__btn:hover {
+  background: rgba(46, 128, 206, 1);
+  cursor: pointer;
+  color: #fff;
 }
