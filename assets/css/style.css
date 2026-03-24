@@ -387,3 +387,46 @@ body {
   cursor: pointer;
   color: #fff;
 }
+/* install */
+.install {
+  margin: 85px 0;
+  padding-top: 85px;
+}
+.install .install__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+  background: rgba(46, 128, 206, 1);
+  padding: 0 70px;
+  height: 427px;
+}
+.install .install__img {
+  width: 284px;
+  height: 522px;
+  position: absolute;
+  top: -95px;
+  object-fit: cover;
+}
+.install .section-heading {
+  color: rgba(255, 255, 255, 1);
+  width: 586px;
+}
+.install .section-desc {
+  color: rgba(255, 255, 255, 1);
+  width: 586px;
+  margin: 18px 0 38px 0;
+}
+.install .install__row {
+  display: flex;
+  gap: 28px;
+}
+.install .install__row:first-child {
+  width: 135px;
+  height: 40px;
+}
+.install .install__row:last-child {
+  width: 120px;
+  height: 40px;
+}
