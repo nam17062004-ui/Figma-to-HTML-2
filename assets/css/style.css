@@ -526,3 +526,35 @@ body {
 .blog .blog-item .blog-item__more:hover {
   color: rgba(46, 128, 206, 1);
 }
+.appointment {
+  margin: 85px 0;
+}
+.appointment .container {
+  background: rgba(246, 251, 255, 1);
+  text-align: center;
+  padding: 100px 0;
+}
+.appointment .container .section-heading {
+  width: 813px;
+  margin: 0 auto;
+}
+.appointment .container .section-heading:after {
+  content: "";
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  display: block;
+  margin: 18px auto;
+}
+.appointment .container p {
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+  width: 617px;
+  display: block;
+  margin: 18px auto 38px;
+}
+.appointment .container .btn {
+  /* display: inline-block; */
+}
